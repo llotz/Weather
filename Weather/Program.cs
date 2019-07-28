@@ -53,7 +53,7 @@ namespace Weather
 
         private static bool ExecuteAPIRequest(APIWebService webService)
         {
-            return webService.Download();
+            return webService.Execute();
         }
     }
 }

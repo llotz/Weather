@@ -16,7 +16,7 @@ namespace Weather
             restClient = new RestClient(url);
         }
 
-        public bool Download()
+        public bool Execute()
         {
             restResponse = restClient.Execute(new RestRequest());
             if (restResponse.StatusCode == HttpStatusCode.OK)
