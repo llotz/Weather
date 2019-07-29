@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Weather.OpenWeatherAPI
 {
-    internal class OpenWeatherJsonWorker : IOpenWeatherObjectWorker
+    public class OpenWeatherJsonWorker : IOpenWeatherObjectWorker
     {
         private string requestURL = "https://api.openweathermap.org/data/2.5/weather?{0}={1}&lang=de&appid={2}";
 
